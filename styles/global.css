@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-black;
+  @apply text-white;
+  @apply font-mono;
+}
+
+@layer base {
+  .primary-gradient-background {
+    background: linear-gradient(270.05deg, #f5af19 0.05%, #f12711 99.97%);
+  }
+}
+
+@layer components {
+  /** Buttons */
+  /** TODO: Hover states, smaller sizes */
+  .button {
+    @apply px-10 py-4 text-base font-bold text-center bg-gray-700 rounded;
+  }
+
+  .button[disabled] {
+    @apply opacity-60;
+  }
+
+  .button--gradient {
+    @apply primary-gradient-background;
+  }
+
+  .icon-button {
+    @apply p-2 button;
+  }
+
+  .input {
+    @apply px-5 py-4 bg-gray-800 border-none rounded;
+  }
+  .input[disabled] {
+    @apply opacity-60;
+  }
+
+  .round-gray-box {
+    @apply px-5 py-4 bg-gray-700 rounded;
+  }
+  .round-gray-box--light {
+    @apply bg-gray-600;
+  }
+  .round-gray-box--dark {
+    @apply bg-gray-800;
+  }
+}

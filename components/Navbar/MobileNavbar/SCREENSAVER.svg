@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="203px" height="39px" viewBox="0 0 203 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>SCREENSAVER</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-42.978467%" y1="-31.5244932%" x2="100.192059%" y2="99.209785%" id="linearGradient-1">
+            <stop stop-color="#FF7828" offset="0%"></stop>
+            <stop stop-color="#A78BFA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0" font-family="DoubleFeature, Double Feature" font-size="30" font-weight="normal" letter-spacing="-0.5686486">
+        <text id="SCREENSAVER" stroke="#A78BFA" fill="url(#linearGradient-1)">
+            <tspan x="1" y="24">SCREENSAVER</tspan>
+        </text>
+    </g>
+</svg>
